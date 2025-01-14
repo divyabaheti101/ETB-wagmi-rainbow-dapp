@@ -9,7 +9,7 @@ import { useContract, useContractRead, useSigner } from 'wagmi';
 import { ethers } from 'ethers';
 
 function App() {
-  const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+  const contractAddress = '0x66702223D7582cD0141CB5A5aA5e68D1EeCcceef';
 
   //EtherWallet Smart Contract handling
   const [scBalance, setScBalnce] = useState(0)
